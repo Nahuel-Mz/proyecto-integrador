@@ -1,0 +1,181 @@
+@media (max-width: 1780px) {
+  .img-hero {
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .img-hero {
+    padding: 0px 20px;
+  }
+
+  .container-contact {
+    gap: 20px;
+  }
+
+  .informacion-contacto {
+    max-width: 600px;
+  }
+
+  .iframe-contact iframe {
+    width: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .list {
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    left: 0;
+    height: calc(100vh -65px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    background-color: #d8cfcf;
+    padding: 30px;
+    display: none;
+  }
+
+  .menu i {
+    display: block;
+    padding: 0px 10px;
+  }
+
+  #toggle-menu:checked ~ .list {
+    display: flex;
+  }
+
+  .user i {
+    display: flex;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .container-cards {
+    max-width: 700px;
+  }
+
+  .container-contact {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .wsp_container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .footer__paragraph {
+    font-size: 15px;
+  }
+
+  .footer__items {
+    font-size: 25px;
+  }
+
+  .informacion-contacto {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-hero {
+    display: none;
+  }
+
+  .iframe-contact iframe {
+    display: none;
+  }
+
+  .footer__paragraph {
+    font-size: 12px;
+  }
+
+  .form__login {
+    width: 400px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-info h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+  }
+
+  .hero-info p {
+    width: 100%;
+    color: #eae1d8;
+    font-size: 13px;
+    padding: 0px 10px;
+    text-align: center;
+  }
+
+  #about h2 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: transparent;
+    background: rgb(0, 76, 249);
+    background: linear-gradient(
+      100deg,
+      rgba(0, 76, 249, 1) 0%,
+      rgba(0, 211, 255, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .about_items_li p {
+    max-width: 90%;
+    /* font-size: 20px; */
+    color: #eae1d8;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .tarjeta {
+    max-width: 300px;
+  }
+
+  .cards__tittle {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .informacion-contacto {
+    text-align: center;
+    max-width: 350px;
+  }
+
+  .contact__tittle {
+    font-size: 1rem;
+  }
+
+  .contact__subtitle {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .contact__date {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 13px;
+  }
+
+  .footer__paragraph {
+    font-size: 10px;
+  }
+  .form__login {
+    width: 400px;
+  }
+}
